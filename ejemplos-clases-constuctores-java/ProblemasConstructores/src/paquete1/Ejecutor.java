@@ -15,7 +15,10 @@ public class Ejecutor {
         /*Crear un objeto y presentar los datos*/
         Hospital h1 = new Hospital();
         
-        System.out.printf("%s\n", h1);
+        System.out.printf("%s\n%s\n%s\n%s\n"
+                , h1.obtenerNombre(),h1.obtenerCiudad()
+                ,h1.obtenerNumeroDoctores()
+                ,h1.obtenerNumeroEnfermeros());
         
     }
 }

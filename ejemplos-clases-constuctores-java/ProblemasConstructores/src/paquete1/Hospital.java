@@ -25,6 +25,12 @@ public class Hospital {
     numeroEnfermeros: 200
     
     */
+      public Hospital(){
+    nombre = "Isidro Ayora";
+    ciudad = "Loja";
+    numeroDoctores = 100;
+    numeroEnfermeros = 200;
+    }
     
     public void establecerNombre(String n){
         nombre = n;
